@@ -4,14 +4,14 @@ pipeline {
             stage('Script1') {
                 steps {
                     script {
-                            build job: 'Script-01'
+                            build job: 'Script1'
                         }
                     }
                }   
             stage('Script2') {
                 steps {
                     script {
-                            build job: 'Script-02'
+                            build job: 'Script2'
                         }
                     }
                }   
